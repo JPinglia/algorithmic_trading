@@ -27,7 +27,9 @@ Model Results:
 
 ----------
 Tweaked SMA
-Short - 30 day
+
+Short - 30 day,
+
 Long - 200 day
 
 ![actual returns vs  the strategy returns - tweaked_SMA](https://user-images.githubusercontent.com/95830866/161475339-c25bbba7-12be-46d4-8b84-ac0bf2535f1f.png)
