@@ -25,7 +25,12 @@ Model Results:
 
 ![image_1_SVC_model](https://user-images.githubusercontent.com/95830866/161472514-c57aec9b-f334-49c5-88cb-1a607f368b16.PNG)
 
+----------
+Tweaked SMA
+Short - 30 day
+Long - 200 day
 
+![actual returns vs  the strategy returns - tweaked_SMA](https://user-images.githubusercontent.com/95830866/161475339-c25bbba7-12be-46d4-8b84-ac0bf2535f1f.png)
 ----------
 
 Alternative Model:
@@ -41,7 +46,9 @@ Model Results:
 
 # Results
 Result Analysis Model 1:
-The strategy return was better with the SVM model up until 2016 and then diverged. The strategy return with the model was worse than the algorithms trading ability, without machine learning. We were more accurately able to predict the long side trades, with upwards of 96% accuracy. The short trades however were a dismal 4% correct prediction rate. The overall accuracy of the model was 55%.  
+The strategy return was better with the SVM model up until 2016 and then diverged. The strategy return with the model was worse than the algorithms trading ability, without machine learning. We were more accurately able to predict the long side trades, with upwards of 96% accuracy. The short trades however were a dismal 4% correct prediction rate. The overall accuracy of the model was 55%. 
+
+Tweaked SMA's did not change the outcome from the first analysis.
 
 Result Analysis Model 2:
 Using the decision tree classifier model, we find that our strategy returns increase greatly, vs the algorithm. Looking at the model classification report, we find the model is now bias towards predicting short trades with 89% with only 11% of long trades successfully predicted. The overall prediction accuracy is 45%. The mode however was able to perform better than the algorithm. 
